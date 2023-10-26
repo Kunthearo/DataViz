@@ -22,7 +22,7 @@ import plotly.express as px
 import numpy as np
 
 def load_data():
-    df = pd.read_csv('accidentsVelo.csv')
+    df = pd.read_csv('https://www.data.gouv.fr/fr/datasets/r/1f677817-b21b-4446-8068-ca1f17278e3e')
     return df
 
 data = load_data()
